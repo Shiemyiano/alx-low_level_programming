@@ -1,5 +1,2 @@
 #!/bin/bash
-
-OUTPUT_FILE="c"
-
-gcc -E "$CFILE" -o "$OUTPUT_FILE"
+gcc -E "$CFILE" -o "c"
