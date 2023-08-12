@@ -10,11 +10,12 @@ int i;
 int j;
 for (j = 0; j <= 9; j++)
 {
-for (i = j+1; i <= 9; i++)
+for (i = j + 1; i <= 9; i++)
 {
 if (i != j)
 {
-putchar(j + i);
+putchar('0' +j);
+putchar('0' +i);
 putchar(',');
 putchar(' ');
 }
