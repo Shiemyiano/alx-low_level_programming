@@ -6,37 +6,27 @@
  */
 int main(void)
 {
-int i;
-int j;
-int k;
-int m;
-for (m = 0; m <= 9; m++)
+int num1;
+int num2;
+for (num1 = 0; num1 <= 99; num1++)
 {
-for (k = 0; k <= 9; k++)
+for (num2 = 0; num2 <= 99; num2++)
 {
-if (m == 9 && k == 9)
-break;
-for (j = 0; j <= 9; j++)
+if (num1 <= num2)
 {
-for (i = k + 1; i <= 9; i++)
-{
-
-putchar('0' + m);
-putchar('0' + k);
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
 putchar(' ');
-putchar('0' + j);
-putchar('0' + i);
-if (m == 9 && k == 8 && i == 9 && j == 9)
-break;
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');            
+if (num1 != 99 || num2 != 99)
+{
 putchar(',');
 putchar(' ');
 }
 }
 }
-if (m == 9 && k == 8)
-break;
 }
-
-putchar('\n');
+putchar('\n');   
 return (0);
 }
