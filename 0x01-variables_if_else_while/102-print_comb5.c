@@ -18,7 +18,7 @@ if (m == 9 && k == 9)
 break;
 for (j = 0; j <= 9; j++)
 {
-for (i = 0; i <= 9; i++)
+for (i = k + 1; i <= 9; i++)
 {
 
 putchar('0' + m);
