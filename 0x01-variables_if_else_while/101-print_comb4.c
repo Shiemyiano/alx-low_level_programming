@@ -10,7 +10,7 @@ int i;
 int j;
 int k;
 for (k = 0; k <= 9; k++)
-{	
+{
 for (j = k + 1; j <= 9; j++)
 {
 for (i = j + 1; i <= 9; i++)
