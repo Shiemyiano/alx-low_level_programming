@@ -1,13 +1,1 @@
-/*
- * Entry point Main
- *
- * Description:  the following program print only _putchar followed by new line
- *
- *
- * */
-int main(void)
-{
- _putchar("\_putchar\n")
-return (0);
-}
-~
+int _putchar(char c);
