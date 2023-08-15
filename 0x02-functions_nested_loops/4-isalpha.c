@@ -11,7 +11,7 @@ if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
-else if if (c >= 'A' && c <= 'Z')
+else if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
