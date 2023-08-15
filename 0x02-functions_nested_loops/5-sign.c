@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_sign - check if number is positive or negative or zero
  * @n: number to check
