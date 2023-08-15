@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
- * Entry point: Main
- * description:the following code use external function named _putchar
- * Return:0
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 _putchar('_');
