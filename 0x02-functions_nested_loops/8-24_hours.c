@@ -16,9 +16,9 @@ for (h1 = 0; h1 < 3; h1++)
 {
 for (h2 = 0; h2 < 4; h2++)
 {
-for (m1 = 0; m1 < 6; j++)
+for (m1 = 0; m1 < 6; m1++)
 {
-for (m2 = 0; m2 < 10; i++)
+for (m2 = 0; m2 < 10; m2++)
 {
 _putchar(h1);
 _putchar(h2);
