@@ -2,9 +2,7 @@
 
 /**
  * Entry point: Main
- *
- * description: the following code use external function named _putchar 
- *
+ * description:the following code use external function named _putchar
  * Return:0
  */
 int main(void)
