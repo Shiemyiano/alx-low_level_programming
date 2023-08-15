@@ -1,6 +1,6 @@
 /**
  * _islower - check if char is lower or not
- * @c is input argument
+ * @c: char to check
  * Return: if lower 1.
  * Otherwise, 0 is returned.
  */
