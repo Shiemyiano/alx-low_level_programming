@@ -28,7 +28,8 @@ _putchar(r + '0');
 _putchar(result + '0');
 _putchar(',');
 }
-_putchar('  ');
+_putchar(' ');
+_putchar(' ');
 _putchar(result + '0');
 _putchar(',');
 }
