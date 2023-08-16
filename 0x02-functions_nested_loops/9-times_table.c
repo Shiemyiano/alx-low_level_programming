@@ -26,12 +26,20 @@ result = result % 10;
 _putchar(' ');
 _putchar(r + '0');
 _putchar(result + '0');
+if (m2 == 9)
+{
+break;
+}
 _putchar(',');
 continue;
 }
 _putchar(' ');
 _putchar(' ');
 _putchar(result + '0');
+if (m2 == 9)
+{
+break;
+}
 _putchar(',');
 }
 _putchar('\n');
