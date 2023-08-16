@@ -10,13 +10,13 @@ long i = 0;
 long f = 1;
 long sum = 0;
 int j;
-printf("%d, %d, ", i, f);
+printf("%ld, %ld, ", i, f);
 for (j = 0; j <= 50; j++)
 {
 sum = i + f;
 i = f;
 f = sum;
-printf("%d, ", sum);
+printf("%ld, ", sum);
 }
 printf("\n");
 return (0);
