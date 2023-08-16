@@ -6,9 +6,9 @@
   */
 int main(void)
 {
-int i = 0;
-int f = 1;
-int sum = 0;
+long i = 0;
+long f = 1;
+long sum = 0;
 int j;
 printf("%d, %d, ", i, f);
 for (j =0; j <= 50; j++)
