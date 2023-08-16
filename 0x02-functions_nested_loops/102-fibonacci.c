@@ -11,12 +11,12 @@ long f = 1;
 long sum = 0;
 int j;
 printf("%d, %d, ", i, f);
-for (j =0; j <= 50; j++)
+for (j = 0; j <= 50; j++)
 {
 sum = i + f;
 i = f;
 f = sum;
-printf("%d, ",sum);
+printf("%d, ", sum);
 }
 printf("\n");
 return (0);
