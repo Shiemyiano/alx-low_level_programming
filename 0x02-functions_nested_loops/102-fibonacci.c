@@ -10,12 +10,16 @@ long i = 0;
 long f = 1;
 long sum = 0;
 int j;
-printf("%ld, %ld, ", i, f);
-for (j = 0; j <= 50; j++)
+for (j = 0; j < 50; j++)
 {
 sum = i + f;
 i = f;
 f = sum;
+if (j == 49)
+{
+printf("%ld", sum);
+break;
+}
 printf("%ld, ", sum);
 }
 printf("\n");
