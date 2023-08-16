@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add(int, int) - funcation that sum two numbers
+ * add - funcation that sum two numbers
  * @num1: first argument
  * @num2: second argument
  *
