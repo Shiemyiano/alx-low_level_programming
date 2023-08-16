@@ -14,20 +14,24 @@ int m1, m2;
 int result, r;
 for (m1 = 0; m1 < 10; m1++)
 {
-for (m2 = 0; m2 < 10; m2++)
+_putchar('0');
+_putchar(',');
+for (m2 = 1; m2 < 10; m2++)
 {
 result = m1 * m2;
 if (result > 9)
 {
 r = result / 10;
 result = result % 10;
+_putchar(' ');
 _putchar(r + '0');
-}
 _putchar(result + '0');
 _putchar(',');
-_putchar(' ');
 }
-
+_putchar('  ');
+_putchar(result + '0');
+_putchar(',');
+}
 _putchar('\n');
 }
 }
