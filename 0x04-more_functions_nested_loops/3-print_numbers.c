@@ -1,18 +1,16 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * print_numbers - function to print numbers
- * Description: this is counter
+ * print_numbers - function that checks for uppercase character.
  * Return: 0
  */
-
 void print_numbers(void)
 {
-char i;
+char c = '0';
 
-for (i = 0; i < 10; i++)
+while (c <= '9')
 {
-_putchar(i);
+_putchar(c);
+c++;
 }
 _putchar('\n');
 }
