@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - function that check if arguments digit
- * @n: argument to check
+ * @c: argument to check
  * Return: 1 is digit
  * otherwise return 0
  */
