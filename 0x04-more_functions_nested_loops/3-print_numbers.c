@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - function to print numbers
+ * Description: this is counter
  * Return: 0
  */
 
