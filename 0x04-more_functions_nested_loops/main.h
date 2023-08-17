@@ -11,4 +11,6 @@ int mul(int a, int b);
 
 void print_numbers(void);
 
+void _putchar(char);
+
 #endif /* MAIN_H */
