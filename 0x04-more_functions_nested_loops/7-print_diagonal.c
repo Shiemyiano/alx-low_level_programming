@@ -17,6 +17,6 @@ for (j = 1; j <= i; j++)
 _putchar(' ');
 }
 }
-if (n <= 0)
+
 _putchar('\n');
 }
