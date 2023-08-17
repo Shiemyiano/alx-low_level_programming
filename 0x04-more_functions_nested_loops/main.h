@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
 
- _isupper(char)
+ _isupper(int)
 #include <stdio.h>
