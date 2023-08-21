@@ -19,4 +19,5 @@ for (; count >= 0; count--)
 {
 printf("%c", s[count]);
 }
+printf("\n");
 }
