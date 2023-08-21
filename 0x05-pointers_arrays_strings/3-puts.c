@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
- * _puts - function to print whole string
- * @s: string to print 
- *
- * Return: void
- */
+
+/**
+  * _puts - function to print whole string
+  * @s: string to print
+  *
+  * Return: void
+  */
 void _puts(char *s)
 {
 int i;
