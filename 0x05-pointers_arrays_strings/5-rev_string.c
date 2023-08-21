@@ -21,7 +21,7 @@ k =c/2;
 
 for (i = 0; i < k; i++)
 {
-x = s[i]
+x = s[i];
 s[i] = s[c];
 s[c] = x;
 c--;
