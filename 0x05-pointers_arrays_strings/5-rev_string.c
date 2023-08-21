@@ -6,6 +6,7 @@
  *
  * Return: no return
  */
+
 void rev_string(char *s)
 {
 int i, c, k;
