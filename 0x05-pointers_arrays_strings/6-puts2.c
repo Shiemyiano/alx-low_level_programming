@@ -16,8 +16,8 @@ j++;
 
 for (i = 0; i < j; i += 2)
 {
-_putchar(str[i]);
+printf("%c", str[i]);
 }
 
-_putchar('\n');
+printf("\n");
 }
