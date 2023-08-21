@@ -6,25 +6,28 @@
  *
  * Return: no return
  */
-
 void rev_string(char *s)
 {
-int i, k = 0;
-int count = 0;
-for (i = 0; s[i] != '\0'; i++)
+int i, c, k;
+char *a, aux;
+
+a = s;
+
+while (s[c] != '\0')
 {
-count++;
+c++;
 }
-char tmp[count];
-count--;
-for (; count >= 0; count--)
+
+for (k = 1; k < c; k++)
 {
-tmp[k] = s[count];
-k++;
+a++;
 }
-for (i = 0; s[i] != '\0'; i++)
+
+for (i = 0; i < (c / 2); i++)
 {
-s[i] = tmp[i];
+aux = s[i];
+s[i] = *a;
+*a = aux;
+a--;
 }
-printf("\n");
 }
