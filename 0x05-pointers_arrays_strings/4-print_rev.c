@@ -15,7 +15,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 count++;
 }
-for (; count >= 0; count--)
+for (; count > 0; count--)
 {
 printf("%c", s[count]);
 }
