@@ -10,21 +10,21 @@
 void rev_string(char *s)
 {
 int i, c, k;
-char *a, aux;
-
-*a = *s;
+char x;
 
 while (s[c] != '\0')
 {
 c++;
 }
 c--;
+k =c/2;
 
-
-
-for (i = 0; i <= c; i++)
+for (i = 0; i < k; i++)
 {
-s[i] = a[c];
+x = s[i]
+s[i] = s[c];
+s[c] = x;
 c--;
 }
+printf("\n");
 }
