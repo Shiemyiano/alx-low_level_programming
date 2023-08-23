@@ -21,7 +21,7 @@ break;
 }
 dest[i] = src[c];
 i++;
-}i
+}
 
 dest[i] = '\0';
 
