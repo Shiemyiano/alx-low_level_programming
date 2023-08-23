@@ -1,23 +1,18 @@
 /**
- * _strncat - concatenate two strings
- * 
- * @dest: string
- * @src: string
- * @n: number of elements to concatenate in
- * 
- * Return: pointer to resulting `dest`
+ * _strncat - function to concatenate strings
+ * @dest : pointer
+ * @src : pointer
+ * @n : variable integer
+ * Return: Always 0.
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
+int a, b;
 
-int i, c;
-
-for (i = 0; dest[i] != '\0'; i++);
-
-for (c = 0; src[c] != '\0' && n > 0; c++, n--, i++)
+for (a = 0; dest[a] != '\0'; a++);
+for (b = 0; b < n && src[b] != '\0'; b++)
 {
-dest[i] = src[c];
+dest[a + b] = src[b];
 }
 return (dest);
 }

@@ -1,25 +1,21 @@
 /**
- * leet - encode a string into 1337
- * @s: string
- * Return: encoded string `s`
+ * leet - function to change letters to words
+ * @str : char variable
+ * Return: Always 0.
  */
-
-char *leet(char *s)
+char *leet(char *str)
 {
-int i;
+int a, b;
+char *alpha = "aeotlAEOTL";
+char *integer = "4307143071";
 
-for (i = 0; s[i] != '\0'; i++)
+for (a = 0; str[a] != '\0'; a++)
 {
-if (s[i] == 'a' || s[i] == 'A')
-s[i] = '4';
-else if (s[i] == 'e' || s[i] == 'E')
-s[i] = '3';
-else if(s[i] == 'o' || s[i] == 'O')
-s[i] = '0';
-else if (s[i] == 't' || s[i] == 'T')
-s[i] = '7';
-else if (s[i] == 'l' || s[i] == 'L')
-s[i] = '1';
+for (b = 0; alpha[b] != '\0'; b++)
+{
+if (str[a] == alpha[b])
+str[a] = integer[b];
 }
-return (s);
+}
+return (str);
 }
