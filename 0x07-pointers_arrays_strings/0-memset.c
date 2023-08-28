@@ -1,4 +1,4 @@
-/** 
+/**
  * _memset - function that fills memory as required
  * @s: name of array
  * @b: filler 
