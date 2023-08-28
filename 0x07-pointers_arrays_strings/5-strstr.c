@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 int i, count, flag, j;
 i = 0;
 count = 0;
-flag =0;
+flag = 0;
 j = 0;
 
 while (needle[i] != '\0')
@@ -36,5 +36,5 @@ j = 0;
 flag = 0;
 }
 }
-
+return ((void *)0);
 }
