@@ -19,7 +19,7 @@ j = 0;
 while (needle[i] != '\0')
 {
 count++;
-i++
+i++;
 }
 for (i = 0; haystack[i] != '\0'; i++)
 {
