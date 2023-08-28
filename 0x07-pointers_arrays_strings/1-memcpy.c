@@ -1,7 +1,7 @@
 /**
  * _memcpy - function that copy memory as required
  * @dest: name of array
- * @src: filler 
+ * @src: filler
  * @n: number of location to fill
  *
  * Return: address of first elment of array

@@ -1,9 +1,8 @@
 /**
  * _memset - function that fills memory as required
  * @s: name of array
- * @b: filler 
+ * @b: filler
  * @n: number of location to fill
- *
  * Return: address of first elment of array
  *
  */
