@@ -21,7 +21,7 @@ count++;
 
 for (i = 0; haystack[i] != '\0'; i++)
 {
-if (haystack[i] = needle[j])
+if (haystack[i] == needle[j])
 {
 flag++;
 j++;
