@@ -16,5 +16,5 @@ if (c == s[i])
 return (s + i);
 }
 }
-return (NULL);
+return ((void *)0);
 }
