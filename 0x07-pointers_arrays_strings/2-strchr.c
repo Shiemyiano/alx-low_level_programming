@@ -4,6 +4,7 @@
  * @c: char to find
  *
  * Return: pointer to required char
+ * @s. Return NULL if the character isn't found
  */
 
 char *_strchr(char *s, char c)
