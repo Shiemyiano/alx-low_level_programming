@@ -1,23 +1,30 @@
 /**
- * _strspn - fuction locate char in string
- * @s: string
- * @accept: char to count
+ * _strspn - gets the length of a prefix substring
  *
- * Return: counter of accept
+ * @s: segment to return bytes from
+ * @accept: the bytes to include
+ *
+ * Return: the number of bytes in the initial segment of @s which consist only
+ * of bytes from @accept
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned i, j, counter;
-counter = 0;
+int i, j;
+unsigned int c = 0;
 
-for (i = 0; accept[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; s[j] != '\0'; j++)
+if (s[i] != 32)
 {
-if (accept[i] == s[j])
-counter++;
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (s[i] == accept[j])
+c++;
 }
 }
-return (counter);
+else
+return (c);
+}
+return (c);
 }
