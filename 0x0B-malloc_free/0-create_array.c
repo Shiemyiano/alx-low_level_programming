@@ -16,6 +16,9 @@ return ((void *) 0);
 else
 {
 arr = malloc(size * sizeof(char));
+if (a == ((void *) 0))
+return ((void *) 0);
+
 for (; i < size; i++)
 arr[i] = c;
 return (arr);
