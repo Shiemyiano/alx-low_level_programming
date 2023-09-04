@@ -17,7 +17,7 @@ else
 {
 arr = malloc(size * sizeof(char));
 for (; i < size; i++)
-arr[0] = c;
+arr[i] = c;
 return (arr);
 }
 }
